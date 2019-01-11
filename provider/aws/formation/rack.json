@@ -2365,6 +2365,9 @@
               { "Fn::Sub": "convox/rack:${Version}" },
               { "Ref": "BuildImage" }
             ] },
+            "LinuxParameters": {
+              "InitProcessEnabled": "true"
+            },
             "Memory": { "Ref": "BuildMemory" },
             "MountPoints": [
               { "SourceVolume": "config", "ContainerPath": "/etc/sysconfig/docker" },
@@ -2438,6 +2441,9 @@
               { "Name": "STACK_ID", "Value": { "Ref": "AWS::StackId" } }
             ],
             "Image": { "Fn::Sub": "convox/rack:${Version}" },
+            "LinuxParameters": {
+              "InitProcessEnabled": "true"
+            },
             "LogConfiguration": {
               "LogDriver": "awslogs",
               "Options": {
@@ -2515,6 +2521,9 @@
               { "Name": "STACK_ID", "Value": { "Ref": "AWS::StackId" } }
             ],
             "Image": { "Fn::Sub": "convox/rack:${Version}" },
+            "LinuxParameters": {
+              "InitProcessEnabled": "true"
+            },
             "LogConfiguration": {
               "LogDriver": "awslogs",
               "Options": {
