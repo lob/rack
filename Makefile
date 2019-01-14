@@ -24,10 +24,7 @@ mocks:
 
 
 release:
-	make -C cmd/convox release VERSION=$(VERSION)
-	make -C provider release VERSION=$(VERSION)
-	docker build -t convox/rack:$(VERSION) .
-	docker push convox/rack:$(VERSION)
+	make -C cmd/convox release AWS_PROFILE=$(AWS_PROFILE) VERSION=$(VERSION)
 
 templates:
 	go get -u github.com/jteeuwen/go-bindata/...
