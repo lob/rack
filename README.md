@@ -112,6 +112,20 @@ $ convox login ($docker-machine ip default)
 
 See the [Development Guide](DEVELOPMENT.md) for more instructions to develop, contribute and release changes for Rack and related components.
 
+## Releasing
+
+To create a new release of the CLI, you
+can run the following command, with
+`XXXXXXXXXXXXXX` replaced with the
+current Convox version. You can find the
+latest version by going to the releases
+page of the [parent
+repo](https://github.com/convox/rack/releases).
+
+```sh
+$ make release AWS_PROFILE=core VERSION=XXXXXXXXXXXXXX-lob
+```
+
 ## Contributing
 
 * Join the [Convox Slack](https://invite.convox.com) channel to ask questions from the community and team
