@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/convox/rack/pkg/structs"
+	"github.com/lob/rack/pkg/structs"
 )
 
 func (p *Provider) processExec(app, pid, command string, rw io.ReadWriter, opts structs.ProcessExecOptions) (int, error) {

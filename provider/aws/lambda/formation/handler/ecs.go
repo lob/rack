@@ -15,8 +15,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/service/ecs"
 	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/convox/rack/pkg/crypt"
-	"github.com/convox/rack/pkg/structs"
+	"github.com/lob/rack/pkg/crypt"
+	"github.com/lob/rack/pkg/structs"
 	shellquote "github.com/kballard/go-shellquote"
 )
 

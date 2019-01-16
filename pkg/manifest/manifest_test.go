@@ -3,8 +3,8 @@ package manifest_test
 import (
 	"testing"
 
-	"github.com/convox/rack/pkg/helpers"
-	"github.com/convox/rack/pkg/manifest"
+	"github.com/lob/rack/pkg/helpers"
+	"github.com/lob/rack/pkg/manifest"
 	"github.com/stretchr/testify/require"
 )
 

@@ -3,7 +3,7 @@ package cli
 import (
 	"net/url"
 
-	"github.com/convox/rack/sdk"
+	"github.com/lob/rack/sdk"
 	"github.com/convox/stdcli"
 )
 

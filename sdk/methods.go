@@ -5,7 +5,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/convox/rack/pkg/structs"
+	"github.com/lob/rack/pkg/structs"
 	"github.com/convox/stdsdk"
 )
 

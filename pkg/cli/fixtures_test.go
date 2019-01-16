@@ -3,7 +3,7 @@ package cli_test
 import (
 	"time"
 
-	"github.com/convox/rack/pkg/structs"
+	"github.com/lob/rack/pkg/structs"
 )
 
 func fxApp() *structs.App {

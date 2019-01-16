@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/convox/rack/pkg/helpers"
+	"github.com/lob/rack/pkg/helpers"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/autoscaling"

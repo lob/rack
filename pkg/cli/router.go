@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os/user"
 
-	"github.com/convox/rack/pkg/router"
-	"github.com/convox/rack/sdk"
+	"github.com/lob/rack/pkg/router"
+	"github.com/lob/rack/sdk"
 	"github.com/convox/stdcli"
 )
 

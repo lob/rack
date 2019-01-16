@@ -3,8 +3,8 @@ package local
 import (
 	"fmt"
 
-	"github.com/convox/rack/pkg/helpers"
-	"github.com/convox/rack/pkg/structs"
+	"github.com/lob/rack/pkg/helpers"
+	"github.com/lob/rack/pkg/structs"
 	"github.com/pkg/errors"
 )
 

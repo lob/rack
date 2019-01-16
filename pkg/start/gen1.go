@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/convox/rack/pkg/helpers"
-	"github.com/convox/rack/pkg/manifest1"
+	"github.com/lob/rack/pkg/helpers"
+	"github.com/lob/rack/pkg/manifest1"
 )
 
 type Options1 struct {

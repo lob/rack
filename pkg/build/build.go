@@ -16,12 +16,12 @@ import (
 	"time"
 
 	"github.com/convox/exec"
-	"github.com/convox/rack/pkg/helpers"
-	"github.com/convox/rack/pkg/manifest"
-	"github.com/convox/rack/pkg/manifest1"
-	"github.com/convox/rack/pkg/options"
-	"github.com/convox/rack/pkg/structs"
-	"github.com/convox/rack/sdk"
+	"github.com/lob/rack/pkg/helpers"
+	"github.com/lob/rack/pkg/manifest"
+	"github.com/lob/rack/pkg/manifest1"
+	"github.com/lob/rack/pkg/options"
+	"github.com/lob/rack/pkg/structs"
+	"github.com/lob/rack/sdk"
 )
 
 type Options struct {

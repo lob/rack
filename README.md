@@ -94,14 +94,14 @@ $ convox exec $WEB_PID env --app $STACK_NAME > .env
 
 # Check out the Rack golang package
 
-$ go get github.com/convox/rack/...
-$ cd $GOPATH/src/github.com/convox/rack
+$ go get github.com/lob/rack/...
+$ cd $GOPATH/src/github.com/lob/rack
 
 # Start Rack locally in Docker
 
 $ docker-machine start default
 $ convox start
-RUNNING: docker build -t convox-icytafnqqb /Users/noah/go/src/github.com/convox/rack
+RUNNING: docker build -t convox-icytafnqqb /Users/noah/go/src/github.com/lob/rack
 web      | running: docker run -i --name rack-web...
 web      | [negroni] listening on :3000
 
@@ -114,22 +114,21 @@ See the [Development Guide](DEVELOPMENT.md) for more instructions to develop, co
 
 ## Releasing
 
-To create a new release of the CLI, you
-can run the following command, with
-`XXXXXXXXXXXXXX` replaced with the
-current Convox version. You can find the
-latest version by going to the releases
-page of the [parent
-repo](https://github.com/convox/rack/releases).
+To create a new release of the CLI, you can run the following command, with
+`XXXXXXXXXXXXXX` replaced with the current Convox version and the `1.X` should
+be an incremental version. You can find the latest Convox version by going to
+the releases page of the [parent repo](https://github.com/lob/rack/releases),
+and you can find the latest Lob version by downloading the current one and
+running `convox version`.
 
 ```sh
-$ make release AWS_PROFILE=core VERSION=XXXXXXXXXXXXXX-lob
+$ make release VERSION=XXXXXXXXXXXXXX-lob-1.X
 ```
 
 ## Contributing
 
 * Join the [Convox Slack](https://invite.convox.com) channel to ask questions from the community and team
-* Open a [GitHub Issue](https://github.com/convox/rack/issues/new) for bugs and feature requests
+* Open a [GitHub Issue](https://github.com/lob/rack/issues/new) for bugs and feature requests
 * Initiate a [GitHub Pull Request](https://help.github.com/articles/using-pull-requests/) to submit patches
 
 ## License

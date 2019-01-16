@@ -16,9 +16,9 @@ import (
 
 	"github.com/boltdb/bolt"
 	"github.com/convox/logger"
-	"github.com/convox/rack/pkg/metrics"
-	"github.com/convox/rack/pkg/router"
-	"github.com/convox/rack/pkg/structs"
+	"github.com/lob/rack/pkg/metrics"
+	"github.com/lob/rack/pkg/router"
+	"github.com/lob/rack/pkg/structs"
 	"github.com/pkg/errors"
 )
 

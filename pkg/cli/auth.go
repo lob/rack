@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"regexp"
 
-	"github.com/convox/rack/pkg/token"
-	"github.com/convox/rack/sdk"
+	"github.com/lob/rack/pkg/token"
+	"github.com/lob/rack/sdk"
 	"github.com/convox/stdcli"
 	"github.com/convox/stdsdk"
 )

@@ -6,15 +6,15 @@ import (
 	"time"
 
 	"github.com/aws/aws-sdk-go/service/cloudwatch"
-	"github.com/convox/rack/pkg/options"
-	"github.com/convox/rack/pkg/structs"
-	"github.com/convox/rack/pkg/test/awsutil"
-	"github.com/convox/rack/provider/aws"
+	"github.com/lob/rack/pkg/options"
+	"github.com/lob/rack/pkg/structs"
+	"github.com/lob/rack/pkg/test/awsutil"
+	"github.com/lob/rack/provider/aws"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
 	awssdk "github.com/aws/aws-sdk-go/aws"
-	mockaws "github.com/convox/rack/pkg/mock/aws"
+	mockaws "github.com/lob/rack/pkg/mock/aws"
 )
 
 func TestSystemGet(t *testing.T) {

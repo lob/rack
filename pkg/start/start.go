@@ -8,7 +8,7 @@ import (
 	"os/signal"
 
 	"github.com/convox/exec"
-	"github.com/convox/rack/pkg/prefix"
+	"github.com/lob/rack/pkg/prefix"
 )
 
 var (

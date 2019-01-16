@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/boltdb/bolt"
-	"github.com/convox/rack/pkg/cache"
-	"github.com/convox/rack/pkg/helpers"
+	"github.com/lob/rack/pkg/cache"
+	"github.com/lob/rack/pkg/helpers"
 )
 
 var lock sync.Mutex

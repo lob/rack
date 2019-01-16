@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/convox/rack/pkg/router"
+	"github.com/lob/rack/pkg/router"
 )
 
 func main() {

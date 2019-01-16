@@ -9,8 +9,8 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/convox/rack/pkg/helpers"
-	"github.com/convox/rack/pkg/structs"
+	"github.com/lob/rack/pkg/helpers"
+	"github.com/lob/rack/pkg/structs"
 	"github.com/kr/pty"
 	"github.com/pkg/errors"
 )

@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/convox/rack/pkg/test/awsutil"
+	"github.com/lob/rack/pkg/test/awsutil"
 )
 
 /*

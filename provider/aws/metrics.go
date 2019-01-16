@@ -9,8 +9,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/cloudformation"
 	"github.com/aws/aws-sdk-go/service/cloudwatch"
-	"github.com/convox/rack/pkg/options"
-	"github.com/convox/rack/pkg/structs"
+	"github.com/lob/rack/pkg/options"
+	"github.com/lob/rack/pkg/structs"
 )
 
 type metricDefinition struct {

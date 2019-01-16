@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/convox/rack/pkg/structs"
+	"github.com/lob/rack/pkg/structs"
 	docker "github.com/fsouza/go-dockerclient"
 )
 

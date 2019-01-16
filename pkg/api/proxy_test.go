@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/convox/rack/pkg/structs"
+	"github.com/lob/rack/pkg/structs"
 	"github.com/convox/stdsdk"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"

@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/convox/rack/pkg/cli"
-	mocksdk "github.com/convox/rack/pkg/mock/sdk"
+	"github.com/lob/rack/pkg/cli"
+	mocksdk "github.com/lob/rack/pkg/mock/sdk"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

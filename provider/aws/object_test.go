@@ -1,6 +1,6 @@
 package aws_test
 
-import "github.com/convox/rack/pkg/test/awsutil"
+import "github.com/lob/rack/pkg/test/awsutil"
 
 var cycleObjectListStackResources = awsutil.Cycle{
 	Request: awsutil.Request{

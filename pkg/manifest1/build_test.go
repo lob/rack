@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"testing"
 
-	"github.com/convox/rack/pkg/manifest1"
+	"github.com/lob/rack/pkg/manifest1"
 	"github.com/stretchr/testify/assert"
 )
 

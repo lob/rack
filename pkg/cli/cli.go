@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/convox/rack/pkg/start"
-	"github.com/convox/rack/sdk"
+	"github.com/lob/rack/pkg/start"
+	"github.com/lob/rack/sdk"
 	"github.com/convox/stdcli"
 )
 

@@ -6,9 +6,9 @@ import (
 	"os"
 
 	"github.com/convox/logger"
-	"github.com/convox/rack/pkg/structs"
-	"github.com/convox/rack/pkg/test/awsutil"
-	"github.com/convox/rack/provider/aws"
+	"github.com/lob/rack/pkg/structs"
+	"github.com/lob/rack/pkg/test/awsutil"
+	"github.com/lob/rack/provider/aws"
 )
 
 func init() {
