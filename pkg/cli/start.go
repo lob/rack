@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/convox/rack/pkg/start"
-	"github.com/convox/rack/pkg/structs"
-	"github.com/convox/rack/sdk"
+	"github.com/lob/rack/pkg/start"
+	"github.com/lob/rack/pkg/structs"
+	"github.com/lob/rack/sdk"
 	"github.com/convox/stdcli"
 )
 

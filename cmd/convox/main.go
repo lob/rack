@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/convox/rack/pkg/cli"
+	"github.com/lob/rack/pkg/cli"
 )
 
 var (

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/convox/rack/pkg/structs"
-	"github.com/convox/rack/provider/aws"
-	"github.com/convox/rack/provider/local"
+	"github.com/lob/rack/pkg/structs"
+	"github.com/lob/rack/provider/aws"
+	"github.com/lob/rack/provider/local"
 )
 
 var Mock = &structs.MockProvider{}

@@ -3,7 +3,7 @@ package local
 import (
 	"fmt"
 
-	"github.com/convox/rack/pkg/structs"
+	"github.com/lob/rack/pkg/structs"
 )
 
 func (p *Provider) ResourceCreate(kind string, opts structs.ResourceCreateOptions) (*structs.Resource, error) {

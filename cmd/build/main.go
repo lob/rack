@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/convox/rack/pkg/build"
-	"github.com/convox/rack/pkg/structs"
-	"github.com/convox/rack/sdk"
+	"github.com/lob/rack/pkg/build"
+	"github.com/lob/rack/pkg/structs"
+	"github.com/lob/rack/sdk"
 )
 
 var (

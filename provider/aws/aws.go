@@ -28,8 +28,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/sqs"
 	"github.com/aws/aws-sdk-go/service/sts"
 	"github.com/convox/logger"
-	"github.com/convox/rack/pkg/metrics"
-	"github.com/convox/rack/pkg/structs"
+	"github.com/lob/rack/pkg/metrics"
+	"github.com/lob/rack/pkg/structs"
 )
 
 const (

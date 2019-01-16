@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/convox/rack/pkg/sync"
+	"github.com/lob/rack/pkg/sync"
 	homedir "github.com/mitchellh/go-homedir"
 )
 

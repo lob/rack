@@ -3,8 +3,8 @@ package aws_test
 import (
 	"testing"
 
-	"github.com/convox/rack/pkg/test/awsutil"
-	"github.com/convox/rack/pkg/structs"
+	"github.com/lob/rack/pkg/test/awsutil"
+	"github.com/lob/rack/pkg/structs"
 	"github.com/stretchr/testify/assert"
 )
 

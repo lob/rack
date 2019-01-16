@@ -3,7 +3,7 @@ package aws
 import (
 	"time"
 
-	"github.com/convox/rack/pkg/helpers"
+	"github.com/lob/rack/pkg/helpers"
 )
 
 func (p *Provider) workerHeartbeat() {

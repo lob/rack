@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/convox/rack/pkg/helpers"
+	"github.com/lob/rack/pkg/helpers"
 	"golang.org/x/net/websocket"
 )
 

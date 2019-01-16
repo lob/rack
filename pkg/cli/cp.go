@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/convox/rack/pkg/helpers"
-	"github.com/convox/rack/sdk"
+	"github.com/lob/rack/pkg/helpers"
+	"github.com/lob/rack/sdk"
 	"github.com/convox/stdcli"
 )
 

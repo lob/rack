@@ -1,7 +1,7 @@
 package cli
 
 import (
-	"github.com/convox/rack/sdk"
+	"github.com/lob/rack/sdk"
 	"github.com/convox/stdcli"
 )
 

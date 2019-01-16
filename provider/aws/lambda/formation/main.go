@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/convox/rack/provider/aws/lambda/formation/handler"
+	"github.com/lob/rack/provider/aws/lambda/formation/handler"
 )
 
 func die(err error) {

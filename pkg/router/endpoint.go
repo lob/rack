@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/convox/rack/pkg/options"
-	"github.com/convox/rack/sdk"
-	"github.com/convox/rack/pkg/structs"
+	"github.com/lob/rack/pkg/options"
+	"github.com/lob/rack/sdk"
+	"github.com/lob/rack/pkg/structs"
 )
 
 type Endpoint struct {

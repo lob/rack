@@ -3,7 +3,7 @@ package local
 import (
 	"context"
 
-	"github.com/convox/rack/pkg/structs"
+	"github.com/lob/rack/pkg/structs"
 )
 
 func (p *Provider) WithContext(ctx context.Context) structs.Provider {

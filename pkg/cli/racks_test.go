@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/convox/rack/pkg/cli"
-	mocksdk "github.com/convox/rack/pkg/mock/sdk"
-	mockstdcli "github.com/convox/rack/pkg/mock/stdcli"
+	"github.com/lob/rack/pkg/cli"
+	mocksdk "github.com/lob/rack/pkg/mock/sdk"
+	mockstdcli "github.com/lob/rack/pkg/mock/stdcli"
 	"github.com/gorilla/mux"
 	"github.com/stretchr/testify/require"
 )

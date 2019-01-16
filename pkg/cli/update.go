@@ -3,8 +3,8 @@ package cli
 import (
 	"fmt"
 
-	"github.com/convox/rack/sdk"
 	"github.com/convox/stdcli"
+	"github.com/lob/rack/sdk"
 )
 
 func init() {

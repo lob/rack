@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"reflect"
 
-	"github.com/convox/rack/pkg/structs"
-	"github.com/convox/rack/provider"
+	"github.com/lob/rack/pkg/structs"
+	"github.com/lob/rack/provider"
 	"github.com/convox/stdapi"
 )
 

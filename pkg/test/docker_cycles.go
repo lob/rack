@@ -4,7 +4,7 @@ import (
 	"net/http/httptest"
 	"os"
 
-	"github.com/convox/rack/pkg/test/awsutil"
+	"github.com/lob/rack/pkg/test/awsutil"
 )
 
 /*

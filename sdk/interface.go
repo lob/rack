@@ -3,7 +3,7 @@ package sdk
 import (
 	"io"
 
-	"github.com/convox/rack/pkg/structs"
+	"github.com/lob/rack/pkg/structs"
 	"github.com/convox/stdsdk"
 )
 

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/convox/rack/provider"
-	"github.com/convox/rack/pkg/structs"
+	"github.com/lob/rack/provider"
+	"github.com/lob/rack/pkg/structs"
 )
 
 var (

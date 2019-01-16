@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/convox/rack/pkg/cli"
-	"github.com/convox/rack/pkg/helpers"
-	mocksdk "github.com/convox/rack/pkg/mock/sdk"
-	"github.com/convox/rack/pkg/options"
-	"github.com/convox/rack/pkg/structs"
+	"github.com/lob/rack/pkg/cli"
+	"github.com/lob/rack/pkg/helpers"
+	mocksdk "github.com/lob/rack/pkg/mock/sdk"
+	"github.com/lob/rack/pkg/options"
+	"github.com/lob/rack/pkg/structs"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/convox/rack/pkg/options"
-	"github.com/convox/rack/pkg/structs"
+	"github.com/lob/rack/pkg/options"
+	"github.com/lob/rack/pkg/structs"
 	"github.com/convox/stdsdk"
 	"github.com/stretchr/testify/require"
 )

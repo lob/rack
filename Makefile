@@ -3,7 +3,7 @@
 all: build
 
 build:
-	go install ./...
+	make -C cmd/convox build
 
 builder:
 	docker build -t convox/build:$(USER) -f cmd/build/Dockerfile .
@@ -24,7 +24,7 @@ mocks:
 
 
 release:
-	make -C cmd/convox release AWS_PROFILE=$(AWS_PROFILE) VERSION=$(VERSION)
+	make -C cmd/convox release VERSION=$(VERSION)
 
 templates:
 	go get -u github.com/jteeuwen/go-bindata/...

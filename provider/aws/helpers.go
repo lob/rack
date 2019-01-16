@@ -32,9 +32,9 @@ import (
 	"github.com/aws/aws-sdk-go/service/iam"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/service/sts"
-	"github.com/convox/rack/pkg/cache"
-	"github.com/convox/rack/pkg/manifest1"
-	"github.com/convox/rack/pkg/structs"
+	"github.com/lob/rack/pkg/cache"
+	"github.com/lob/rack/pkg/manifest1"
+	"github.com/lob/rack/pkg/structs"
 	docker "github.com/fsouza/go-dockerclient"
 )
 

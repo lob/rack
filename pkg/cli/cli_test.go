@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/convox/rack/pkg/cli"
-	mocksdk "github.com/convox/rack/pkg/mock/sdk"
-	"github.com/convox/rack/pkg/structs"
+	"github.com/lob/rack/pkg/cli"
+	mocksdk "github.com/lob/rack/pkg/mock/sdk"
+	"github.com/lob/rack/pkg/structs"
 	shellquote "github.com/kballard/go-shellquote"
 	"github.com/stretchr/testify/require"
 )

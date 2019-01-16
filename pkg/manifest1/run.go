@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/convox/rack/pkg/sync"
+	"github.com/lob/rack/pkg/sync"
 	"github.com/docker/docker/builder/dockerignore"
 )
 

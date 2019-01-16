@@ -4,8 +4,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/convox/rack/provider/local"
-	"github.com/convox/rack/pkg/structs"
+	"github.com/lob/rack/provider/local"
+	"github.com/lob/rack/pkg/structs"
 )
 
 func testProvider() (*local.Provider, error) {

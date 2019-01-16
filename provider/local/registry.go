@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/convox/rack/pkg/structs"
+	"github.com/lob/rack/pkg/structs"
 	"github.com/pkg/errors"
 )
 

@@ -11,7 +11,7 @@ RUN curl -Ls https://github.com/mattgreen/watchexec/releases/download/1.8.6/watc
 
 ENV DEVELOPMENT=true
 
-WORKDIR /go/src/github.com/convox/rack
+WORKDIR /go/src/github.com/lob/rack
 
 COPY . .
 
@@ -46,7 +46,7 @@ COPY --from=development /go/bin/monitor /go/bin/
 COPY --from=development /go/bin/rack /go/bin/
 
 # aws templates
-COPY --from=development /go/src/github.com/convox/rack/provider/aws/formation/ provider/aws/formation/
-COPY --from=development /go/src/github.com/convox/rack/provider/aws/templates/ provider/aws/templates/
+COPY --from=development /go/src/github.com/lob/rack/provider/aws/formation/ provider/aws/formation/
+COPY --from=development /go/src/github.com/lob/rack/provider/aws/templates/ provider/aws/templates/
 
 CMD ["/go/bin/rack"]

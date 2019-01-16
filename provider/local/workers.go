@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/convox/rack/pkg/helpers"
+	"github.com/lob/rack/pkg/helpers"
 	docker "github.com/fsouza/go-dockerclient"
 )
 

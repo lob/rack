@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/convox/exec"
-	"github.com/convox/rack/pkg/build"
-	"github.com/convox/rack/pkg/options"
-	"github.com/convox/rack/pkg/structs"
+	"github.com/lob/rack/pkg/build"
+	"github.com/lob/rack/pkg/options"
+	"github.com/lob/rack/pkg/structs"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

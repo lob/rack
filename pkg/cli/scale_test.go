@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/convox/rack/pkg/cli"
-	mocksdk "github.com/convox/rack/pkg/mock/sdk"
-	"github.com/convox/rack/pkg/options"
-	"github.com/convox/rack/pkg/structs"
+	"github.com/lob/rack/pkg/cli"
+	mocksdk "github.com/lob/rack/pkg/mock/sdk"
+	"github.com/lob/rack/pkg/options"
+	"github.com/lob/rack/pkg/structs"
 	"github.com/stretchr/testify/require"
 )
 
